@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 42, 61);
+    color: white;
+}
+
+#main-container {
+    padding-top: 80px;
+    text-align: center;
+    margin: 60px auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(10, 10, 58);
+    border-radius: 20px 0;
+}
+
+.raya {
+    height: 6px;
+    width: 120px;
+    background-color: aqua;
+    border-radius: 30px;
+    margin: 3px auto;
+}
+
+#input-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-container input {
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+#btnSend {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    width: 120px;
+}
+
+#btnSend:hover {
+    background-color: aqua;
+}
+
+#Alert {
+    color: red;
+    display: none;
+}
+
+#login, .volver {
+    margin-top: 15px;
+    color: white;
+}

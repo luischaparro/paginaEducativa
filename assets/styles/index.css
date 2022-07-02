@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { background-color: #eee; }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.logo h1 {
+    color: #ddd;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.navegacion ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: rgb(243, 71, 99);
+    transition: .5s;
+}
+
+.submenu {
+    position: absolute;
+    flex-direction: column;
+    width: 160%;
+    background-color: #3b3b3b;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.submenu li a {
+    display: block;
+    color: #ddd;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu > li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .6s;
+}
+
+/*  */
+
+#inicio > #img-welcome {
+    height: 100vh;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url("../img/imgFondo.jpg");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio #img-welcome-text {
+    color: #eee;
+    font-size: 2rem;
+    width: 70%;
+    text-align: justify;
+}
+
+/*  */
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.servicios-container {
+    margin: 40px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.servicio {
+    max-width: 350px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d5d5f7;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.servicio:hover {
+    transform: scale(1.1);
+}
+
+.title1 { font-size: 2.5em; }
+.title2 { font-size: 1.6em; }
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #2091f9;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b132b1;
+}
+
+/*  */
+
+#acercaDe {
+    background-color: #d5d5f7;
+    padding: 100px 0;
+}
+
+.acercaDe {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: rgb(15, 89, 131);
+    gap: 2em;
+}
+
+.info {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    color: white;
+}
+
+.text { font-size: 1.2em;}
+
+.imgDev {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/*  */
+
+footer {
+    background-color: #1d293f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10% 20px 10%;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+
+

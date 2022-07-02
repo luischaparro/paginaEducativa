@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Estudiantes</title>
+    <link rel="stylesheet" href="../styles/agregar.css">
+</head>
+<body>
+
+    <main class="container">
+        <form class="agregar">
+            <h1>Agregar Estudiantes</h1>
+            <input type="text" name="studentName" id="studentName" class="inputs" placeholder="Nombre *" required>
+            <input type="text" name="studentLastName" id="studentLastName" class="inputs" placeholder="Apellido">
+            <input type="number" name="studentAge" id="studentAge" class="inputs" placeholder="Edad">
+            <input type="email" name="studentEmail" id="studentEmail" class="inputs" placeholder="Email *" required>
+            <input type="text" name="studentCarrera" id="studentCarrera" class="inputs" placeholder="Carrera *" required>
+            <p id="error"></p>
+            <button id="btnSend">Agregar</button>
+            <a href="../../index.html" class="btn">Ir a inicio</a>
+        </form>
+    </main>
+
+    <script src="../scripts/agregar.js"></script>
+</body>
+</html>
