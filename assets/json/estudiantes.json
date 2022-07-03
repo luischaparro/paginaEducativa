@@ -1,0 +1,27 @@
+[
+    {
+        "nombre" : "Luis",
+        "apellido" : "Chaparro",
+        "edad" : "18",
+        "email" : "algo@gmail.com",
+        "carrera" : "Ing sistemas"
+    },{
+        "nombre" : "Paco",
+        "apellido" : "Gonzales",
+        "edad" : "23",
+        "email" : "algo@gmail.com",
+        "carrera" : "Matematicas"
+    },{
+        "nombre" : "Leidy",
+        "apellido" : "Martines",
+        "edad" : "27",
+        "email" : "algo@gmail.com",
+        "carrera" : "Ing industrial"
+    },{
+        "nombre" : "Sandra",
+        "apellido" : "Milena",
+        "edad" : "19",
+        "email" : "algo@gmail.com",
+        "carrera" : "Lenguas Modernas"
+    }
+]
